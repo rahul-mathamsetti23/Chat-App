@@ -29,7 +29,7 @@ export default function SignIn() {
         </div>
         <Link
           onClick={(e) => (!name || !room ? e.preventDefault() : null)}
-          to= {`/chat?name=${name}&room=${room}`}
+          to={`/chat?name=${name}&room=${room}`}
         >
           <button className={"button mt-20"} type="submit">
             Sign In
